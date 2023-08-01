@@ -24,6 +24,7 @@
 
 <br/>
 
+#
 
 ### 내부의 closure를 외부 변수에 저장하는 경우
 
@@ -35,14 +36,15 @@
 var aSavedFunction: (() -> ())?
 
 func performEscaping2(closure: @escaping() -> ()) {
-
     aSavedFunction = closure 
 }
+```
 
-```
+1. fwe
 
+<br/>
 
-
+#
 
 ### GCD 비동기 코드를 사용하는 경우
 
